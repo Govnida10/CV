@@ -112,42 +112,41 @@
  }
 
  .btn {
-   background: #11CDD4;
-   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
-   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
-   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
-   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
-   background-image: linear-gradient(to bottom, #11CDD4, #11999E);
-   -webkit-border-radius: 8;
-   -moz-border-radius: 8;
-   border-radius: 8px;
-   text-shadow: 1px 1px 3px #2b152b;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
    font-family: 'Montserrat', sans-serif;
-   color: #ffffff;
-   font-size: 20px;
-   padding: 10px 20px 10px 20px;
-   text-decoration: none;
- }
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
 
- .btn:hover {
-   background: #30e3cb;
-   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc48d);
-   background-image: -moz-linear-gradient(top, #30e3cb, #2bc48d);
-   background-image: -ms-linear-gradient(top, #30e3cb, #2bc48d);
-   background-image: -o-linear-gradient(top, #30e3cb, #2bc48d);
-   background-image: linear-gradient(to bottom, #30e3cb, #2bc48d);
-   text-decoration: none;
- }
-
+.btn:hover {
+  background: #3cfcfc;
+  background-image: -webkit-linear-gradient(top, #3cfcfc, #34ced9);
+  background-image: -moz-linear-gradient(top, #3cfcfc, #34ced9);
+  background-image: -ms-linear-gradient(top, #3cfcfc, #34ced9);
+  background-image: -o-linear-gradient(top, #3cfcfc, #34ced9);
+  background-image: linear-gradient(to bottom, #3cfcfc, #34ced9);
+  text-decoration: none;
+}
  .footer-link {
    font-family: 'Montserrat', sans-serif;
    text-decoration: none;
    color: #1199e;
-   margin: 10px 20px;
+   margin: 10px 20px auto auto;
  }
 
  .footer-link:hover {
-   color: #EAF6F6
+   color: #EAF6F6;
  }
 
  .one {
@@ -160,10 +159,18 @@
  }
 
  .copy-right {
-   color: #eaf6f6;
+   color: rgb(10, 0, 10);
    font-size: 0.75rem;
-/*    padding: 10px; */
+   margin: 0;
+   padding-top: 20px;
  }
-.copy-right 2{
- color:lightblue;
-}
+
+ .P-Policy {
+   color: rgb(10, 0, 10);
+   font-size: 0.75rem;
+   margin: auto;
+   text-decoration: none;
+ }
+ .P-Policy:hover{
+   color: #EAF6F6;
+ }

@@ -32,18 +32,29 @@
    line-height: 2;
  }
 
+ nav {
+   /* margin: 2px; */
+   border: 1px solid brown;
+ }
+
  .top-container {
-   background-color: #435055;
+   border: 2px solid black;
+   background-color: #cc7e68f5;
    position: relative;
    padding-top: 100px;
+   /* margin: 2px; */
  }
 
  .middle-container {
-   margin: 100px 0;
+   border: 2px solid black;
+   background-color: #050e0e;
+   /* margin: 2px; */
  }
 
  .bottom-container {
-   background-color: #66bfbf;
+   /* margin: 2px; */
+   border: 2px solid black;
+   background-color: #673e5a;
    padding: 50px 0 20px;
  }
 
@@ -62,29 +73,29 @@
    top: 40px;
  }
 
- .weight-lift {
-   margin-left: 30px;
-   float: right;
-   width: 25%;
-   background-color: #435055;
- }
-
  .intro {
    width: 30%;
    margin: auto;
- }
-
- .skills-image {
-   margin-right: 30px;
-   float: left;
-   width: 25%;
-   background-color: #E4DCEF;
  }
 
  .profile-pic {
    margin-top: 20px;
    width: 20%;
    /* background-color: red; */
+ }
+
+ .skills-image {
+   margin-right: 30px;
+   float: left;
+   width: 25%;
+   /* background-color: #E4DCEF; */
+ }
+
+ .weight-lift {
+   margin-left: 30px;
+   float: right;
+   width: 25%;
+   background-color: #435055;
  }
 
  .p {
@@ -112,32 +123,34 @@
  }
 
  .btn {
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  text-shadow: 1px 1px 3px #666666;
+   background: #3498db;
+   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+   background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+   background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+   background-image: -o-linear-gradient(top, #3498db, #2980b9);
+   background-image: linear-gradient(to bottom, #3498db, #2980b9);
+   -webkit-border-radius: 28;
+   -moz-border-radius: 28;
+   border-radius: 28px;
+   text-shadow: 1px 1px 3px #666666;
    font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
+   color: #ffffff;
+   font-size: 20px;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+   margin-bottom: 10px;
+ }
 
-.btn:hover {
-  background: #3cfcfc;
-  background-image: -webkit-linear-gradient(top, #3cfcfc, #34ced9);
-  background-image: -moz-linear-gradient(top, #3cfcfc, #34ced9);
-  background-image: -ms-linear-gradient(top, #3cfcfc, #34ced9);
-  background-image: -o-linear-gradient(top, #3cfcfc, #34ced9);
-  background-image: linear-gradient(to bottom, #3cfcfc, #34ced9);
-  text-decoration: none;
-}
+ .btn:hover {
+   background: #3cfcfc;
+   background-image: -webkit-linear-gradient(top, #3cfcfc, #34ced9);
+   background-image: -moz-linear-gradient(top, #3cfcfc, #34ced9);
+   background-image: -ms-linear-gradient(top, #3cfcfc, #34ced9);
+   background-image: -o-linear-gradient(top, #3cfcfc, #34ced9);
+   background-image: linear-gradient(to bottom, #3cfcfc, #34ced9);
+   text-decoration: none;
+ }
+
  .footer-link {
    font-family: 'Montserrat', sans-serif;
    text-decoration: none;
@@ -171,6 +184,58 @@
    margin: auto;
    text-decoration: none;
  }
- .P-Policy:hover{
+
+ .P-Policy:hover {
    color: #EAF6F6;
+ }
+
+ .navbar-dark .navbar-brand {
+   color: #b08282;
+   padding-left: 11px;
+ }
+
+ .cosmology-link {
+   text-decoration: none;
+   color: lightblue;
+ }
+
+ .cosmology-link:hover {
+   color: grey;
+ }
+
+ .nav-link {
+   padding-right: 5px;
+ }
+
+ .fa {
+   /* padding: 20px; */
+   font-size: 30px;
+   width: 50px;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 2px;
+ }
+
+ .fa:hover {
+   opacity: 0.7;
+ }
+
+ .fa-instagram {
+   color: #fb3958;
+ }
+
+ .fa-github {
+   color: black;
+ }
+
+ .fa-pinterest {
+   color: #e60023;
+ }
+
+ .fa-twitter {
+   color: #1DA1F2;
+ }
+
+ .navbar-brand {
+   width: 10px;
  }

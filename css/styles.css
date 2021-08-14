@@ -252,11 +252,11 @@
 
  @media (max-width: 1020px) {
    #media-h1 {
-     font-size: 300%;
+     font-size: 350%;
    }
 
    .h-h2 {
-     font-size: 150%;
+     font-size: 200%;
    }
 
    .body {
@@ -292,10 +292,10 @@
    }
 
    .contact-h2 {
-     font-size: 200%;
+     font-size: 250%;
    }
 
    .media-h3 {
-     font-size: 150%;
+     font-size: 200%;
    }
  }

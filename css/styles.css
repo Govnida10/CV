@@ -34,11 +34,11 @@
 
  nav {
    /* margin: 2px; */
-   border: 1px solid brown;
+   border: 1px solid white;
  }
 
  .top-container {
-   border: 2px solid black;
+   border: 2px solid white;
    background-color: #cc7e68f5;
    position: relative;
    padding-top: 100px;
@@ -46,14 +46,14 @@
  }
 
  .middle-container {
-   border: 2px solid black;
+   border: 2px solid white;
    background-color: #050e0e;
    /* margin: 2px; */
  }
 
  .bottom-container {
    /* margin: 2px; */
-   border: 2px solid black;
+   border: 2px solid white;
    background-color: #673e5a;
    padding: 50px 0 20px;
  }
@@ -61,16 +61,22 @@
  /* .Web {
    text-decoration: underline;
  } */
- .bottom-cloud {
-   position: absolute;
-   left: 250px;
-   bottom: 300px;
- }
-
  .top-cloud {
    position: absolute;
    right: 300px;
    top: 40px;
+   width: 10%;
+ }
+
+ .bottom-cloud {
+   position: absolute;
+   left: 250px;
+   bottom: 300px;
+   width: 10%;
+ }
+
+ .alien {
+   width: 4%;
  }
 
  .intro {
@@ -238,4 +244,58 @@
 
  .navbar-brand {
    width: 10px;
+ }
+
+ .h-h2 {
+   color: red;
+ }
+
+ @media (max-width: 1020px) {
+   #media-h1 {
+     font-size: 300%;
+   }
+
+   .h-h2 {
+     font-size: 150%;
+   }
+
+   .body {
+     text-align: center;
+   }
+
+   .profile-pic {
+     width: 40%;
+   }
+
+   .mountain {
+     width: 100%;
+   }
+
+   .skill-row {
+     /* float: right; */
+     padding-left: 10%;
+     position: static;
+   }
+
+   /* .two {
+     margin: 50% 50% 25% 50%;
+   } */
+   .media-cloud {
+     width: 30%;
+     position: static;
+   }
+
+   .media-image {
+     position: static;
+     float: none;
+     width: 60%;
+   }
+
+   .contact-h2 {
+     font-size: 200%;
+   }
+
+   .media-h3 {
+     font-size: 150%;
+   }
  }

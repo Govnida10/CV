@@ -39,7 +39,7 @@
 
  .top-container {
    border: 2px solid white;
-   background-color: #cc7e68f5;
+   background-color: #F2F7FF;
    position: relative;
    padding-top: 100px;
    /* margin: 2px; */
@@ -54,7 +54,7 @@
  .bottom-container {
    /* margin: 2px; */
    border: 2px solid white;
-   background-color: #673e5a;
+   background-color: #F2F7FF;
    padding: 50px 0 20px;
  }
 

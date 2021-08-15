@@ -247,7 +247,8 @@
  }
 
  .h-h2 {
-   color: #8e5555;
+   color: #d64040;
+  font-size: 154%;
  }
 
  @media (max-width: 1020px) {
@@ -256,7 +257,7 @@
    }
 
    .h-h2 {
-     font-size: 200%;
+     font-size: 134%;
    }
 
    .body {

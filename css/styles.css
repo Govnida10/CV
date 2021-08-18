@@ -73,6 +73,10 @@ a {
   color: #E9E2D0;
 }
 
+.h2 {
+    color: #B2704E;
+}
+
 /* Contact Botton */
 .btn {
   background: #3498db;
@@ -216,6 +220,7 @@ a {
   }
 
   .h2 {
+     color: #B2704E;
     font-size: 2rem;
   }
 

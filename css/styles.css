@@ -32,7 +32,7 @@ p {
   padding: 10px 5px 100px;
   margin: 10px 5px;
   border-radius: 20px;
-  background-image: url('https://image.freepik.com/free-photo/gray-wall_24972-1217.jpg');
+  background-color: #EBC6FF;
 }
 
 /* Containers */
@@ -65,14 +65,12 @@ a {
   text-decoration: none;
 }
 
-.skill-p {
-  font-family: monospace;
-  text-align: center;
-  line-height: 1.5;
-}
-
 .code-skill-2 {
   font-size: 1.1rem;
+}
+
+#skills-sec .code-skill-2 {
+  color: #E9E2D0;
 }
 
 /* Contact Botton */
@@ -110,8 +108,16 @@ a {
 #skills-sec {
   border-radius: 20px;
   padding: 10px 5px 100px;
-  background: #12947F;
+  background-image: url(https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80);
+  background-size: contain;
   margin: 10px 5px;
+}
+
+.skill-p {
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  line-height: 1.5;
 }
 
 /* Contact */
@@ -143,7 +149,7 @@ a {
 
 /* Social-site section */
 .fa {
-  padding: 10px;
+  /* padding: 10px; */
   font-size: 30px;
   width: 50px;
   text-align: center;
@@ -152,6 +158,7 @@ a {
 }
 
 .fa:hover {
+  color: black;
   opacity: 0.7;
 }
 
@@ -171,6 +178,10 @@ a {
   color: #1DA1F2;
 }
 
+.fa-reddit {
+  color: #FF4301;
+}
+
 .media-image {
   width: 20%;
 }
@@ -182,12 +193,38 @@ a {
   right: 7%;
 }
 
-.bottom-dumbell {
-  position: absolute;
-  width: 10%;
-  left: 7%;
-}
-
 .mountain {
   padding-bottom: 2%;
+}
+
+@media (max-width: 1028px) {
+  body {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .code-skill-2 {
+    font-size: 2rem;
+  }
+
+  .skill-p {
+    font-size: 1rem;
+  }
+
+  .media-image {
+    width: 40%;
+  }
+
+  .h2 {
+    font-size: 2rem;
+  }
+
+  #contact .code-skill-2 {
+    font-size: 1.2rem;
+  }
+
+  .top-computer {
+    position: static;
+    width: 25%;
+  }
 }
